@@ -112,6 +112,7 @@ try:
                     Color_Matrix.append(Color(result[0], result[1], result[2], result[3]))
     except:
         print("Mode set to default, mix")
+        mode = 0
 
 except:
     print("Error during parsing CLI arguments.")
